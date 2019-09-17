@@ -1,1 +1,1 @@
-[My CV](https://your-github-account.github.io/rsschool-cv/cv)
+[My CV](https://vromga.github.io/rsschool-cv/cv)
