@@ -29,3 +29,13 @@ I run a small vet clinic in Staryya Darohi a small town for almost 7 years. Ever
             advance
             my skills in web designing, polishing my skills and getting a new one, and combine my two passions –
             technologies and veterinary sciences.
+            ## Skills
+- Language: JavaScript
+- Other technologies: HTML/HTML5, CSS/CSS3
+- Frameworks: React
+- CSS frameworks: SASS
+- System of version manage: GitHub
+- Software and Tools: WebStorm, VS Code
+- OS: Windows, Linux (ubuntu)
+- Search engines: Google.com, Stackoverflow.com
+- Other experience of using languages: PHP, Golang
