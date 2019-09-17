@@ -1,1 +1,1 @@
-# rsschool-cv
+[My CV](https://vromga.github.io/rsschool-cv/cv)
