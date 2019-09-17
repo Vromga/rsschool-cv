@@ -75,3 +75,17 @@ function disemvowel(str) {
             return newStr.join("");
         }
 ```
+## Education
+- 2019 - You Don't Know JS Yet (book series) - 2nd Edition
+- 2019 - up to now [The Modern JavaScript Tutorial](https://learn.javascript.ru)
+- 2018 - up to now [HTML Academy](https://htmlacademy.ru/profile/vromga)
+- 2009 - 2010 Belarus State University, School of Business - Web design and computer graphics.
+- 2008 Scientific and Practical Center of the National Academy of Sciences of Belarus on Animal Husbandry - Cattle Embryo Transplantation.
+- 2003 - 2008 Vitebsk State Academy of Veterinary Medicine - Obstetrics, gynecology and biotechnology of animal reproduction.
+
+#### Professional seminars and workshops
+- 12/09/2018 Methods of diagnosis and treatment of tumors of the skin and soft tissue.
+- 12/03/2018 A modern look at the stages of general anesthesia. From patient preparation to withdrawal
+                  from anesthesia.
+- 30/03/2018 Participation in the seminar RS road show: skin disease.
+- 21/03/2016 Dietary aspects of the diets ProPlan Veterinary.
