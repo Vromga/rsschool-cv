@@ -89,3 +89,5 @@ function disemvowel(str) {
                   from anesthesia.
 - 30/03/2018 Participation in the seminar RS road show: skin disease.
 - 21/03/2016 Dietary aspects of the diets ProPlan Veterinary.
+## English
+English – B2
