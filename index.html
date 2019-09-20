@@ -3,8 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Moiseichyk Mikita CV</title>
+    <script src="https://kit.fontawesome.com/be98cb06e6.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -16,34 +17,35 @@
             <section>
                 <h1>Mikita Maiseichyk</h1>
                 <ul>
-                    <li> Phone: +375 447157174</li>
-                    <li> Email: Doktornikita@gmail.com</li>
-                    <li> Skype: doktornikita</li>
-                    <li> Telegram: <a href="https://t.me/vromga" class="link">@vromga</a></li>
-                    <li> GitHub:<a href="https://github.com/Vromga" class="link">@vromga</a></li>
+                    <li><i class="fas fa-phone-alt"></i> Phone: +375 447157174</li>
+                    <li><i class="far fa-envelope"></i> Email: Doktornikita@gmail.com</li>
+                    <li><i class="fab fa-skype"></i> Skype: doktornikita</li>
+                    <li><i class="fab fa-telegram"></i> Telegram: <a href="https://t.me/vromga" class="link">@vromga</a></li>
+                    <li><i class="fab fa-github"></i> GitHub:<a href="https://github.com/Vromga" class="link">@vromga</a></li>
                 </ul>
             </section>
+            <section class="summary">
+                <h2>Summary</h2>
+                <p>I run a small vet clinic in Staryya Darohi a small town for almost 7 years. Every single day as the doctor I need to manage risks, deal with uncertainty, and be able to absorb animal’s pain and anxieties without losing my focus. profession
+                    also requires from me being approachable, decisive, compassionate, and in some way – being a leader, the one who is confident about the standards and stands firm up to hold their values and beliefs. As a person, I am open-minded, and
+                    constantly broadening my horizons, either professional or personal. I am a team-player because I believe that in a team of like-minded people, we can achieve bigger and brighter successes. I enjoy my spare time, which I don’t have
+                    that much, reading or doing some sports. I also curious about technologies and the way they are developing. I got my second degree in web designing and computer graphics, and this have an important influence in my profession. Recently,
+                    I realized that I need a dosage calculator (calculation of medication dosages). Having a background in programming, I was able to develop a simple calculator, meeting my purposes. Therefore, I eager to advance my skills in web designing,
+                    polishing my skills and getting a new one, and combine my two passions – technologies and veterinary sciences.
+                </p>
+            </section>
         </header>
-        <section class="summary">
-            <h2>Summary</h2>
-            <p>I run a small vet clinic in Staryya Darohi a small town for almost 7 years. Every single day as the doctor I need to manage risks, deal with uncertainty, and be able to absorb animal’s pain and anxieties without losing my focus. profession
-                also requires from me being approachable, decisive, compassionate, and in some way – being a leader, the one who is confident about the standards and stands firm up to hold their values and beliefs. As a person, I am open-minded, and constantly
-                broadening my horizons, either professional or personal. I am a team-player because I believe that in a team of like-minded people, we can achieve bigger and brighter successes. I enjoy my spare time, which I don’t have that much, reading
-                or doing some sports. I also curious about technologies and the way they are developing. I got my second degree in web designing and computer graphics, and this have an important influence in my profession. Recently, I realized that I
-                need a dosage calculator (calculation of medication dosages). Having a background in programming, I was able to develop a simple calculator, meeting my purposes. Therefore, I eager to advance my skills in web designing, polishing my skills
-                and getting a new one, and combine my two passions – technologies and veterinary sciences.
-            </p>
-        </section>
-        <section>
+
+        <section class="section-skills border-brown">
             <h2>Skills</h2>
             <dl class="skills">
                 <dt>Language: JavaScript</dt>
                 <dd>
-                    <div class="skills-level skills-level-ok" style="width: 30%"> 30%</div>
+                    <div class="skills-level skills-level-ok" style="width: 35%"> 35%</div>
                 </dd>
                 <dt>Other technologies: HTML/HTML5, CSS/CSS3</dt>
                 <dd>
-                    <div class="skills-level skills-level-ok" style="width: 70%"> 70%</div>
+                    <div class="skills-level skills-level-ok" style="width: 85%"> 85%</div>
                 </dd>
                 <dt>Frameworks: React</dt>
                 <dd>
@@ -82,18 +84,18 @@
                     <h3>Kata: Find the stray number</h3>
                     <pre class="code">
                 <code>
-   function stray(numbers) {
-     let uniqueArr = [];
-     let uniqueArr2 = [];
-     uniqueArr.push(numbers[0]);
-     for (let i = 1; i &lt; numbers.length; i++){
-         if (uniqueArr[0] === numbers[i]) {
-             uniqueArr.push(numbers[i]);
-          }else{uniqueArr2.push(numbers[i])}
-         }
-         if(uniqueArr2.length &lt; uniqueArr.length){
-            return uniqueArr2[0];
-         else {return uniqueArr[0];}
+ function stray(numbers) {
+   let uniqueArr = [];
+   let uniqueArr2 = [];
+   uniqueArr.push(numbers[0]);
+   for (let i = 1; i &lt; numbers.length; i++){
+    if (uniqueArr[0] === numbers[i]) {
+        uniqueArr.push(numbers[i]);
+     }else{uniqueArr2.push(numbers[i])}
+    }
+    if(uniqueArr2.length &lt; uniqueArr.length){
+       return uniqueArr2[0];
+    else {return uniqueArr[0];}
    }
                 </code>
             </pre>
@@ -120,6 +122,16 @@
                 </div>
             </section>
         </section>
+        <section class="section-english border-brown">
+            <h2>English</h2>
+            <dl>
+                <dt>English – B2</dt>
+                <dd class="percent">
+                    <div class="skills-level skills-level-ok" style="width: 40%">B2</div>
+                </dd>
+            </dl>
+            <p></p>
+        </section>
         <section>
             <h2>Education</h2>
             <ul>
@@ -142,10 +154,10 @@
                 <li>21/03/2016 Dietary aspects of the diets ProPlan Veterinary</li>
             </ul>
         </section>
-        <section>
-            <h2>English</h2>
-            <p>English – B2</p>
-        </section>
+        <footer class="footer">
+            <div class="copyright">created Vromga with <span class="heart"><i class="fas fa-heart"></i></span> for RSSchool</div>
+        </footer>
+
     </div>
 </body>
 
