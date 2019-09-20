@@ -64,6 +64,51 @@
             <li>Other experience of using languages: PHP, Golang</li>
         </ul>
     </section>
+    <section>
+        <h2>Code examples</h2>
+        <section class="code-section">
+            <div class="wrap">
+                <h3>Kata: Find the stray number</h3>
+                <pre class="code">
+                <code>
+   function stray(numbers) {
+     let uniqueArr = [];
+     let uniqueArr2 = [];
+     uniqueArr.push(numbers[0]);
+     for (let i = 1; i &lt; numbers.length; i++){
+         if (uniqueArr[0] === numbers[i]) {
+             uniqueArr.push(numbers[i]);
+          }else{uniqueArr2.push(numbers[i])}
+         }
+         if(uniqueArr2.length &lt; uniqueArr.length){
+            return uniqueArr2[0];
+         else {return uniqueArr[0];}
+   }
+                </code>
+            </pre>
+            </div>
+            <div class="wrap">
+                <h3>Remove duplicate words</h3>
+                <pre class="code">
+                <code>
+  function removeDuplicateWords(s) {
+      let arr = s.split(" ");
+      let set = new Set();
+
+      for (const item of arr) {
+         set.add(item);
+      }
+      arr = [];
+      for (const kei of set) {
+       arr.push(kei);
+      }
+      return arr.join(" ");
+      }
+                </code>
+            </pre>
+            </div>
+        </section>
+    </section>
 </body>
 
 </html>
