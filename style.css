@@ -11,6 +11,10 @@ ul {
     list-style: none;
 }
 
+ul li {
+    margin: 7px;
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -53,14 +57,34 @@ body {
     margin: 0 0 0 80px;
 }
 
-.header ul li {
-    margin: 10px;
-}
-
 .link {
     text-decoration: none;
 }
 
 .link:hover {
     text-decoration: underline;
+}
+
+h2 {
+    margin: 15px 0 10px 0;
+    text-align: center;
+}
+
+.summary {
+    text-align: justify;
+}
+
+.skills dd {
+    margin-bottom: 10px;
+    background-color: #e8e8e8;
+}
+
+.skills-level {
+    font-size: 0.8rem;
+    text-align: center;
+    color: #ffffff;
+}
+
+.skills-level-ok {
+    background-color: #47bb52;
 }
