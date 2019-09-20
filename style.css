@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 19px;
+    font-family: 'PT Serif', serif;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin: 7px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 1000px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: rgba(238, 232, 170, 0.3);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.header {
+    position: relative;
+}
+
+.personal-foto {
+    width: 35%;
+    border: 8px solid #dfdfdf;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    filter: brightness(110%);
+    transform: rotate(-2deg);
+    float: left;
+    margin: -30px 34px 20px 0;
+}
+
+.paper-clip {
+    position: absolute;
+    width: 6%;
+    top: -38px;
+    left: 40px;
+    z-index: 99;
+}
+
+.header h1 {
+    font-size: 2.6rem;
+    margin: 35px 0 37px 400px;
+}
+
+.header ul {
+    margin: 0 0 0 400px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    margin: 15px 0 10px 0;
+    text-align: center;
+}
+
+.summary {
+    text-align: justify;
+}
+
+.border-brown {
+    border: 2px solid brown;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.section-skills {
+    float: left;
+    width: 30%;
+    margin: 14px 11px 16px 0px;
+}
+
+.skills dd {
+    margin-bottom: 10px;
+    background-color: #e8e8e8;
+}
+
+.skills-level {
+    font-size: 0.8rem;
+    text-align: center;
+    color: #ffffff;
+}
+
+.skills-level-ok {
+    background-color: #47bb52;
+}
+
+.code-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrap {
+    width: 50%;
+}
+
+.code {
+    border-left: 5px solid brown;
+}
+
+code {
+    font-size: 0.7rem;
+}
+
+.section-english {
+    float: right;
+    width: 20%;
+}
+
+.section-english dt {
+    margin-bottom: 5px;
+}
+
+.section-english dd {
+    margin-bottom: 10px;
+    background-color: #e8e8e8;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 4rem;
+    font-size: 0.8rem;
+}
+
+.copyright {
+    margin: 0 30px 20px;
+    opacity: 0.2;
+}
+
+.heart {
+    color: red;
+    font-size: 1rem;
+}
