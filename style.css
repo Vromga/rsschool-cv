@@ -7,6 +7,10 @@ html {
     font-size: 21px;
 }
 
+ul {
+    list-style: none;
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -16,4 +20,47 @@ body {
     width: 1000px;
     padding-left: 40px;
     padding-right: 40px;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.personal-foto {
+    width: 35%;
+    border: 8px solid #dfdfdf;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    filter: brightness(110%);
+    transform: rotate(-2deg);
+}
+
+.paper-clip {
+    position: absolute;
+    width: 6%;
+    top: -10px;
+    left: 40px;
+    z-index: 99;
+}
+
+.header h1 {
+    font-size: 2.6rem;
+    margin: 35px 0 37px 80px;
+}
+
+.header ul {
+    margin: 0 0 0 80px;
+}
+
+.header ul li {
+    margin: 10px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
 }
